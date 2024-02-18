@@ -45,7 +45,7 @@ Configuration configuration = new Configuration().configure().addAnnotatedClass(
     	
     	session3.getTransaction().begin();
     	
-    	session3.get(User.class, "3");
+    	session3.get(User.class, "1");
     	
     	session3.getTransaction().commit();
     	
